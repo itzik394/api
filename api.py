@@ -18,7 +18,7 @@ def home():
     quantity = 350
     total_in_ils = price_per_kaspa * quantity
 
-    return jsonify(total_in_ils)
+    return str(total_in_ils)
 
 
 
